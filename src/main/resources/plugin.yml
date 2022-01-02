@@ -1,0 +1,6 @@
+name: PluginCore
+version: '${project.version}'
+main: com.github.constmine.plugin.plugincore.PluginCore
+api-version: 1.18
+authors: [ ConstMine ]
+description: It's for experiment.
