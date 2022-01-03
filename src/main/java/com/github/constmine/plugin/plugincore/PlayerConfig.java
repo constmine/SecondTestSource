@@ -56,4 +56,15 @@ public class PlayerConfig {
         }
     }
 
+    public static void saveAllConfig(File[] files) {
+        for(File file : files) {
+            FileConfiguration config = YamlConfiguration.loadConfiguration(file);
+            try {
+                config.save(file);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 }
