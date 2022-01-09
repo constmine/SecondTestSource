@@ -6,3 +6,4 @@
  -2. config 파일 속에 플레이어가 설정한 값을 boolean 값으로 지정. △ ( 활용 X )
 
 3. command 명령어로 새로운 Inventory 열기
+

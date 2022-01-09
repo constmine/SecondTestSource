@@ -1,14 +1,13 @@
 package com.github.constmine.plugin.plugincore.commands;
 
 import com.github.constmine.plugin.plugincore.Inventory.NewInventory;
-import com.github.constmine.plugin.plugincore.tools.CreateItem;
+import com.github.constmine.plugin.plugincore.tools.item.CreateItem;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

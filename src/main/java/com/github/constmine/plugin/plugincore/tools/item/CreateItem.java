@@ -1,5 +1,6 @@
-package com.github.constmine.plugin.plugincore.tools;
+package com.github.constmine.plugin.plugincore.tools.item;
 
+import com.github.constmine.plugin.plugincore.tools.StringToComponent;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;

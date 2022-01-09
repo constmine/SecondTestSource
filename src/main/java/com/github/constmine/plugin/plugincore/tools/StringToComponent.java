@@ -15,7 +15,7 @@ public class StringToComponent {
 
     public static List<Component> changeStringList(List<String> texts) {
         List<Component> components = null;
-        for(String c : texts) {
+        for (String c : texts) {
             components.add(changeString(c));
         }
         return components;
