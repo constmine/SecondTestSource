@@ -1,5 +1,6 @@
 package com.github.constmine.plugin.plugincore;
 
+import com.github.constmine.plugin.plugincore.commands.PlayerList;
 import com.github.constmine.plugin.plugincore.commands.openInv;
 import com.github.constmine.plugin.plugincore.player.PlayerEnterEvent;
 import com.github.constmine.plugin.plugincore.player.PlayerExitEvent;
@@ -18,6 +19,7 @@ public final class PluginCore extends JavaPlugin {
         getLogger().info("§bPlugin Loading!");
 
         registerCommmand("openInv", new openInv());
+        registerCommmand("playerList", new PlayerList());
 
         registerEvent(new PlayerEnterEvent(this));
         registerEvent(new PlayerExitEvent());

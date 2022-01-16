@@ -11,3 +11,5 @@ commands:
       -inv
       -newInv
       -oI
+
+  playerList:

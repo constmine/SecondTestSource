@@ -1,7 +1,6 @@
 package com.github.constmine.plugin.plugincore;
 
 import com.github.constmine.plugin.plugincore.tools.config.ConfigSetting;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
@@ -41,7 +40,6 @@ public class PlayerConfig extends ConfigSetting {
      * 이미 객체 생성할때 Player넣었는데 그냥 허전해서 만듦...
      * @return player - player를 반환한다.
      */
-    @Deprecated
     public Player getPlayer() {
         return player;
     }

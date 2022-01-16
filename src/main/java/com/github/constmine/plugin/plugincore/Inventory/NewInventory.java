@@ -11,6 +11,7 @@ public class NewInventory {
     /*
      * 생성자를 호출하면서 새로운 인벤토리 생성
      * size값을 8이하 또는 55 이상으로 설정시에 예외 발생.
+     * 그냥 Inventory 생성하는것도 더 좋은 방법
      */
     public NewInventory(int size, String InventoryName) {
 //        if(size < 9 || size > 54) {
